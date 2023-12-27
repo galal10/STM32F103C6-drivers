@@ -1,16 +1,16 @@
 /*
- * Stm32_F103C6_SPI_driver.h
+ * Stm32_F103C8_SPI_driver.h
  *
  *  Created on: Nov 17, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32_F103C6_SPI_DRIVER_H_
-#define INC_STM32_F103C6_SPI_DRIVER_H_
+#ifndef INC_STM32_F103C8_SPI_DRIVER_H_
+#define INC_STM32_F103C8_SPI_DRIVER_H_
 
-#include "stm32f103x6.h"
-#include "Stm32_F103C6_gpio_driver.h"
-#include "Stm32_F103C6_RCC_driver.h"
+#include "stm32f103x8.h"
+#include "Stm32_F103C8_gpio_driver.h"
+#include "Stm32_F103C8_RCC_driver.h"
 
 
 struct S_IRQ_SRC
@@ -137,4 +137,4 @@ void MCAL_SPI_ReceiveData(SPI_TypeDef* SPIx, uint16_t* pRxBuffer, enum SPI_Polli
 
 void MCAL_SPI_TxRx(SPI_TypeDef* SPIx, uint16_t* pBuffer, enum SPI_Polling_mechanism PollingEn);
 
-#endif /* INC_STM32_F103C6_SPI_DRIVER_H_ */
+#endif /* INC_STM32_F103C8_SPI_DRIVER_H_ */

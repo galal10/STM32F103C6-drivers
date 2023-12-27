@@ -1,11 +1,11 @@
 /*
- * Stm32_F103C6_gpio_driver.c
+ * Stm32_F103C8_gpio_driver.c
  *
  *  Created on: Jul 19, 2023
  *      Author: galal
  */
 
-#include "Stm32_F103C6_gpio_driver.h"
+#include "Stm32_F103C8_gpio_driver.h"
 
 
 static uint8_t get_CRLH_Position(uint16_t pinNumber)
@@ -88,7 +88,7 @@ static uint8_t get_CRLH_Position(uint16_t pinNumber)
  * @param [in] 		- GPIOx: where x can be (A..E depending on device used) to select the GPIO peripheral
  * @param [in] 		- PinConfig : pointer to GPIO_PinConfig_t structure that contains the configurations information for GPIO PIN.
  * @retval			- none
- * Note				- stm32F103c6 MCU has GPIO A,B,C,D,E Modules
+ * Note				- stm32F103c8 MCU has GPIO A,B,C,D,E Modules
  * 					  but LQFP48 package has only GPIO A,B,Part of C/D exported as external PINS from the MCU
  */
 void MCAL_GPIO_init(GPIO_TypeDef* GPIOx, GPIO_PinConfig_t* PinConfig)

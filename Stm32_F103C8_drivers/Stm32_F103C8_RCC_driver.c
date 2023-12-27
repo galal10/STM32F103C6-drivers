@@ -1,11 +1,11 @@
 /*
- * Stm32_F103C6_RCC_driver.c
+ * Stm32_F103C8_RCC_driver.c
  *
  *  Created on: Nov 3, 2023
  *      Author: galal
  */
 
-#include "Stm32_F103C6_RCC_driver.h"
+#include "Stm32_F103C8_RCC_driver.h"
 
 //Bits 10:8 PPRE1: APB low-speed prescaler (APB1)
 //Set and cleared by software to control the division factor of the APB low-speed clock

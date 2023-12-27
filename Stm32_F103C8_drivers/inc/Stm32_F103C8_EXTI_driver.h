@@ -1,15 +1,15 @@
 /*
- * Stm32_F103C6_EXTI_driver.h
+ * Stm32_F103C8_EXTI_driver.h
  *
  *  Created on: Aug 1, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32_F103C6_EXTI_DRIVER_H_
-#define INC_STM32_F103C6_EXTI_DRIVER_H_
+#ifndef INC_STM32_F103C8_EXTI_DRIVER_H_
+#define INC_STM32_F103C8_EXTI_DRIVER_H_
 
-#include "stm32f103x6.h"
-#include "Stm32_F103C6_gpio_driver.h"
+#include "stm32f103x8.h"
+#include "Stm32_F103C8_gpio_driver.h"
 
 typedef struct
 {
@@ -190,4 +190,4 @@ void MCAL_EXTI_GPIO_Deinit(void);
 void MCAL_EXTI_GPIO_Update(EXTI_PinConfig_t* EXTI_Config);
 //========================================================================================
 
-#endif /* INC_STM32_F103C6_EXTI_DRIVER_H_ */
+#endif /* INC_STM32_F103C8_EXTI_DRIVER_H_ */

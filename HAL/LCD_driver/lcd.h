@@ -8,8 +8,8 @@
 #ifndef LCD_LCD_H_
 #define LCD_LCD_H_
 
-#include "stm32f103x6.h"
-#include "Stm32_F103C6_gpio_driver.h"
+#include "stm32f103x8.h"
+#include "Stm32_F103C8_gpio_driver.h"
 
 #define LCD_PORT			GPIOA
 #define LCD_CTRL			GPIOA

@@ -1,12 +1,12 @@
 /*
- * stm32f103x6.h
+ * stm32f103x8.h
  *
  *  Created on: Jul 19, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32F103X6_H_
-#define INC_STM32F103X6_H_
+#ifndef INC_STM32F103X8_H_
+#define INC_STM32F103X8_H_
 
 //---------
 //Includes
@@ -543,4 +543,4 @@ typedef struct
 #define I2C_SR2_PEC                         I2C_SR2_PEC_Msk                    /*!< Packet Error Checking Register */
 //======================================================================================================
 
-#endif /* INC_STM32F103X6_H_ */
+#endif /* INC_STM32F103X8_H_ */

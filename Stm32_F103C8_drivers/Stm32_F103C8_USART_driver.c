@@ -1,11 +1,11 @@
 /*
- * Stm32_F103C6_USART_driver.c
+ * Stm32_F103C8_USART_driver.c
  *
  *  Created on: Nov 3, 2023
  *      Author: galal
  */
 
-#include "Stm32_F103C6_USART_driver.h"
+#include "Stm32_F103C8_USART_driver.h"
 
 /*
  * =====================================================================================

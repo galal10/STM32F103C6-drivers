@@ -8,7 +8,7 @@
 #ifndef EEPROM_EEPROM_H_
 #define EEPROM_EEPROM_H_
 
-#include "Stm32_F103C6_I2C_driver.h"
+#include "Stm32_F103C8_I2C_driver.h"
 
 // EEPROM is an I2C Slave only.
 // Idle Mode: device is high-impedance state and waits for data.

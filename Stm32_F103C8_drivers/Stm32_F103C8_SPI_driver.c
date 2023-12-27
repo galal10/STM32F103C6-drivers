@@ -1,12 +1,12 @@
 /*
- * Stm32_F103C6_SPI_driver.c
+ * Stm32_F103C8_SPI_driver.c
  *
  *  Created on: Nov 17, 2023
  *      Author: galal
  */
 
 
-#include "Stm32_F103C6_SPI_driver.h"
+#include "Stm32_F103C8_SPI_driver.h"
 
 
 /*

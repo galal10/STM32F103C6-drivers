@@ -1,16 +1,16 @@
 /*
- * Stm32_F103C6_I2C_driver.h
+ * Stm32_F103C8_I2C_driver.h
  *
  *  Created on: Nov 26, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32_F103C6_I2C_DRIVER_H_
-#define INC_STM32_F103C6_I2C_DRIVER_H_
+#ifndef INC_STM32_F103C8_I2C_DRIVER_H_
+#define INC_STM32_F103C8_I2C_DRIVER_H_
 
-#include "stm32f103x6.h"
-#include "Stm32_F103C6_gpio_driver.h"
-#include "Stm32_F103C6_RCC_driver.h"
+#include "stm32f103x8.h"
+#include "Stm32_F103C8_gpio_driver.h"
+#include "Stm32_F103C8_RCC_driver.h"
 
 
 struct S_I2C_Slave_Device_Address
@@ -172,4 +172,4 @@ void I2C_ACK_Config(I2C_TypeDef* I2Cx, FunctionalState NewState);
 FlagStatus I2C_GetFlagStatus(I2C_TypeDef* I2Cx, Status flag);
 void Slave_States(I2C_TypeDef* I2Cx, Slave_State state);
 
-#endif /* INC_STM32_F103C6_I2C_DRIVER_H_ */
+#endif /* INC_STM32_F103C8_I2C_DRIVER_H_ */

@@ -1,11 +1,11 @@
 /*
- * Stm32_F103C6_EXTI_driver.c
+ * Stm32_F103C8_EXTI_driver.c
  *
  *  Created on: Aug 1, 2023
  *      Author: galal
  */
 
-#include "Stm32_F103C6_EXTI_driver.h"
+#include "Stm32_F103C8_EXTI_driver.h"
 
 /*
  * =====================================================================================
@@ -224,7 +224,7 @@ void MCAL_EXTI_GPIO_Deinit(void)
  * @brief 			- this is used to Initializes the EXTI from specific GPIO PIN and specify the Mask/Trigger condition and IRQ CallBack
  * @param [in] 		- EXTI_Config set by @ref EXTI_define, EXTI_Trigger_define and EXTI_IRQ_define
  * @retval			- none
- * Note				- stm32F103c6 MCU has GPIO A,B,C,D,E Modules
+ * Note				- stm32F103c8 MCU has GPIO A,B,C,D,E Modules
  * 					- but LQFP48 package has only GPIO A,B,Part of C/D exported as external PINS from the MCU
  * 					- Also Mandatory to enable RCC clock for AFIO and corresponding GPIO
  */
@@ -239,7 +239,7 @@ void MCAL_EXTI_GPIO_Init(EXTI_PinConfig_t* EXTI_Config)
  * @brief 			- this is used to update the EXTI from specific GPIO PIN and specify the Mask/Trigger condition and IRQ CallBack
  * @param [in] 		- EXTI_Config set by @ref EXTI_define, EXTI_Trigger_define and EXTI_IRQ_define
  * @retval			- none
- * Note				- stm32F103c6 MCU has GPIO A,B,C,D,E Modules
+ * Note				- stm32F103c8 MCU has GPIO A,B,C,D,E Modules
  * 					- but LQFP48 package has only GPIO A,B,Part of C/D exported as external PINS from the MCU
  * 					- Also Mandatory to enable RCC clock for AFIO and corresponding GPIO
  */

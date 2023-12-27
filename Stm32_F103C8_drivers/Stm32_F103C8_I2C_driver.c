@@ -1,12 +1,12 @@
 /*
- * Stm32_F103C6_I2C_driver.c
+ * Stm32_F103C8_I2C_driver.c
  *
  *  Created on: Nov 26, 2023
  *      Author: galal
  */
 
 
-#include "Stm32_F103C6_I2C_driver.h"
+#include "Stm32_F103C8_I2C_driver.h"
 
 /*
  * =====================================================================================

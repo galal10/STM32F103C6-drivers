@@ -1,16 +1,16 @@
 /*
- * Stm32_F103C6_USART_driver.h
+ * Stm32_F103C8_USART_driver.h
  *
  *  Created on: Nov 3, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32_F103C6_USART_DRIVER_H_
-#define INC_STM32_F103C6_USART_DRIVER_H_
+#ifndef INC_STM32_F103C8_USART_DRIVER_H_
+#define INC_STM32_F103C8_USART_DRIVER_H_
 
-#include "stm32f103x6.h"
-#include "Stm32_F103C6_gpio_driver.h"
-#include "Stm32_F103C6_RCC_driver.h"
+#include "stm32f103x8.h"
+#include "Stm32_F103C8_gpio_driver.h"
+#include "Stm32_F103C8_RCC_driver.h"
 
 //Configuration structure
 typedef struct
@@ -118,4 +118,4 @@ void MCAL_USART_ReceiveData(USART_TypeDef* USARTx, uint16_t* pRxBuffer, enum Pol
 
 void MCAL_USART_Wait_Tc(USART_TypeDef* USARTx);
 
-#endif /* INC_STM32_F103C6_USART_DRIVER_H_ */
+#endif /* INC_STM32_F103C8_USART_DRIVER_H_ */

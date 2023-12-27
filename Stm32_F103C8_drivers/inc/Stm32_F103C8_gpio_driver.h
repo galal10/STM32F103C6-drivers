@@ -1,14 +1,14 @@
 /*
- * Stm32_F103C6_gpio_driver.h
+ * Stm32_F103C8_gpio_driver.h
  *
  *  Created on: Jul 19, 2023
  *      Author: galal
  */
 
-#ifndef INC_STM32_F103C6_GPIO_DRIVER_H_
-#define INC_STM32_F103C6_GPIO_DRIVER_H_
+#ifndef INC_STM32_F103C8_GPIO_DRIVER_H_
+#define INC_STM32_F103C8_GPIO_DRIVER_H_
 
-#include "stm32f103x6.h"
+#include "stm32f103x8.h"
 
 //--------------------------------
 
@@ -114,4 +114,4 @@ void MCAL_GPIO_TogglePort(GPIO_TypeDef* GPIOx);
 uint8_t MCAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint16_t PinNumber);
 
 
-#endif /* INC_STM32_F103C6_GPIO_DRIVER_H_ */
+#endif /* INC_STM32_F103C8_GPIO_DRIVER_H_ */

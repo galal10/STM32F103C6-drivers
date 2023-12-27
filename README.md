@@ -1,3 +1,3 @@
-# STM32F103C6-drivers
+# STM32F103C8-drivers
 
 ## Galal-Nasser
